@@ -1,0 +1,45 @@
+<ion-header>
+
+  <!-- <ion-navbar>
+    <ion-title>Sign In</ion-title>
+  </ion-navbar> -->
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12>
+          
+          <div class="sign-in">
+              <img src="assets/imgs/settings.png" class="settings">
+            Sign In
+            <img src="assets/imgs/Calendar.png" class="calender">
+          </div>
+          
+      </ion-col>
+      <ion-col col-12>
+        <img class="logo" src="assets/imgs/ico-logo.png">
+      </ion-col>
+      <ion-col col-12>
+        <input type="text" class="input email" placeholder="Email">
+      </ion-col>
+      <ion-col col-12>
+          <input type="password" class="input password" placeholder="Password">
+      </ion-col>
+      <ion-col col-12>
+          <div class="forget-pass">Forget Password?</div>
+      </ion-col>
+      <ion-col col-12>
+          <button class="login-btn" (click)="login()">Login</button>
+      </ion-col>
+      <ion-col col-12 class="line-fb">
+          <button class="fb-btn"><ion-icon name="logo-facebook"></ion-icon>
+            Connect With FACEBOOK
+          </button>
+          <div class="have-account">Do Not have an account?</div>
+          <div class="create-account" (click)="register()">Create account</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

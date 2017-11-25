@@ -1,0 +1,79 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+.scroll-content{
+    background: url('../assets/imgs/background.png') no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    margin: auto; 
+    z-index: 2; 
+}
+.logo{
+    display: block;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.menu-pregnancy-img{
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user-name{
+    color: #d22177;
+}
+.country-governate{
+    color: #d22177;
+}
+.user-email{
+    color: #e35160;
+    padding-left: 5px;
+}
+
+.top-menu-section{
+    background: #f6c1d8;
+}
+.menu-div{
+    background: #da5395;
+    padding: 1rem;
+    color: white;
+    border-top: 0.1px solid white;
+    border-bottom: 0.1px solid white;
+}
+.logout-row{
+    position: absolute;
+    bottom: 0;
+    background: #ed673c;
+    padding: 1rem;
+    .logout{
+        margin-top: 3%;
+        color: white;
+        font-size: 2rem;
+        margin-left: 3%;
+    }
+    .logout-img{
+        width: 15%;
+        height: 10%;
+    }
+}
+
+.toolbar-md-primary .toolbar-background-md{
+    background: #f37e47 !important;
+    border: 0 !important;
+}
+.header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+    background-image:none;
+}

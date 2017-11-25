@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-navbar color="primary">
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-grid no-padding>
+      <ion-row>
+        <ion-col col-12>
+          <div class="sign-in">
+            <img src="assets/imgs/Info..png" class="settings">
+            <span class="support">CYCLE TRACKER</span>
+            <img src="assets/imgs/menu.png" menuToggle class="calender">
+          </div>
+        </ion-col>
+
+
+
+        <ion-col class="segment-col" col-12>
+            <ion-segment [(ngModel)]="list" color="secondary">
+                <ion-segment-button value="calender">
+                  Calender
+                </ion-segment-button>
+                <ion-segment-button value="periodLog">
+                  Period Log
+                </ion-segment-button>
+                <ion-segment-button value="settings">
+                  Settings
+                 </ion-segment-button>
+              </ion-segment>
+        </ion-col>
+
+        <ion-col no-padding col-12>
+            <div class="day-number-wrapper">
+                <div class="day-num">32 DAYS</div>
+                <div class="avg-cycle">in your average cycle</div>
+            </div>
+        </ion-col>
+
+        <ion-col col-12>
+          <div class="period-log">PERIOD LOG</div>
+        </ion-col>
+
+        <ion-col col-12>
+          <ion-list>
+              <button ion-item detail-push>
+                 <span>Jan 30,2017</span>
+              </button> 
+              <button ion-item class="selected">
+                  <span>Jan 28,2017</span>
+               </button> 
+               <button ion-item>
+                  <span>Jan 23,2017</span>
+               </button> 
+               <button ion-item>
+                  <span>Jan 12,2017</span>
+               </button> 
+               <button ion-item>
+                  <span>Jan 24,2017</span>
+               </button> 
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>

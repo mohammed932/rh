@@ -1,0 +1,66 @@
+page-cycle-tracker-period-log {
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem; 
+    }
+    .calender{
+        position: relative;
+        left: 11%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 12%;
+    }
+
+    ion-segment{
+        background: transparent !important;
+        border: 1px solid white !important;
+        // border-radius: 25px !important;
+        width: 90%;
+        margin: auto;
+    }
+    .segment-md-secondary .segment-button.activated, .segment-md-secondary .segment-button.segment-activated{
+        border-color: transparent !important;
+        background: #f660aa !important;
+        // border-right: 1px solid white !important;
+        // border-left: 1px solid white !important;
+        color: white !important;
+        opacity: 1 !important;
+    }
+    .segment-md-secondary .segment-button{
+        color: white !important;
+    }
+    .segment-col{
+        margin-top: 3rem;
+    }
+    .day-number-wrapper{
+        margin: auto;
+        display: block;
+        text-align: center;
+        background: white;
+        padding: 1.2rem;
+        margin-top: 2rem;
+        .day-num{
+            font-size: 2.8rem;
+            color: #ea5ba0;
+        }
+        .avg-cycle{
+            color: #f292c1;
+        }
+    }
+    .period-log{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        color: #af125e;
+    }
+    .item-md{
+        border-radius: 0 !important;
+    }
+    .selected.item.item-block.item-md{
+        background: #f6c0d9;
+    }
+}

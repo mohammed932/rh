@@ -1,0 +1,114 @@
+page-registration {
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem; 
+    }
+    .calender{
+        position: relative;
+        left: 19%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 20%;
+    }
+
+    .name,.email,.password{
+        width: 90%;
+        margin: auto;
+        display: block;
+        background: transparent;
+        border-bottom: 1px solid white;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        padding: 1rem;
+        padding-left: 0;
+        color: white !important;
+    }
+    .age{
+        width: 90%;
+        margin: auto;
+        display: block;
+        background: transparent;
+        border-bottom: 1px solid white;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        padding: 1rem;
+        margin-left: 1rem;
+        padding-left: 0;
+        color: white !important; 
+    }
+    .submit-btn{
+        width: 90%;
+        padding: 1.7rem;
+        border-radius: 2rem;
+        margin-top: 1.9rem !important;
+        display: block;
+        margin: auto;
+        background: white;
+        font-size: 1.9rem;
+        color: #f760aa;
+        font-weight: bold;
+    }
+
+    .line-fb{
+        margin-top: 2rem;
+        border-top: 1px solid white;
+    }
+
+    .fb-btn{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-top: 1rem;
+        height: 48px;
+        padding: 14px;
+        background: #6078ca;
+        color: white;
+        font-size: 1.5rem;
+    }
+    ion-icon{
+        display: inline-block;
+        font-size: 2.2em;
+        margin-right: 1rem;
+        margin-top: -0.6rem;
+        vertical-align: middle;
+    }
+    
+}
+
+.select-text{
+    overflow: initial !important;
+}
+.select-md .select-icon .select-icon-inner{
+    left: 1rem;
+    top: 50%;
+    margin-top: -3px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    color: white;
+    pointer-events: none;
+}
+.select-md{
+    padding: 13px 8px 13px 2px;
+    border-bottom: 1px solid white;
+    padding-top: 0;
+    margin: auto;
+    width: 91%;
+    margin-top: 1.3rem;
+    padding-bottom: 3.3px;
+}
+.select-text{
+    color: white;
+}
+ion-select{
+    max-width: none;
+}

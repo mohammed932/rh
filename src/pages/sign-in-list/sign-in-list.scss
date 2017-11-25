@@ -1,0 +1,55 @@
+page-sign-in-list {
+
+    .pregnancy-wrapper{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background: white;
+        border-radius: 100%;
+        .pregnancy{
+            display: block;
+            position: absolute;
+            top: 7%;
+            margin: auto;
+            left: 19%;
+        }
+    }
+    .guide{
+        display: block;
+        position: absolute;
+        top: 19%;
+        margin: auto;
+        left: 20%;
+    }
+    .baby-img{
+        display: block;
+        position: absolute;
+        top: 21%;
+        margin: auto;
+        left: 24%;
+    }
+    .text{
+        color: white;
+        font-size: 2rem;
+    }
+    .col1{
+        margin-top: 1rem;
+    }
+    .col2,.col3{
+    }
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem;  
+    }
+    .calender{
+        position: relative;
+        left: 6%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 7%;
+    }
+}

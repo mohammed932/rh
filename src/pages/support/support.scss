@@ -1,0 +1,43 @@
+page-support {
+    
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem; 
+    }
+    .calender{
+        position: relative;
+        left: 22%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 23%;
+    }
+    .wrapper{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        background: white;
+        margin: auto;
+        border-radius: 100%;
+    
+    }
+    .directory,.ask_question{
+        display: block;
+        position: absolute;
+        top: 26%;
+        margin: auto;
+        left: 24%;
+    }
+    .text{
+        text-align: center;
+        margin-top: 1rem;
+        color: white;
+        font-size: 2rem;
+    }
+    .col1{
+        margin-top: 3rem;
+    }
+}

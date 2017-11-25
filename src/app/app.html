@@ -1,0 +1,57 @@
+<ion-menu [content]="content">
+        
+       
+         <ion-content>
+           <ion-grid no-padding>
+             <ion-row class="top-menu-section">
+               <ion-col col-12 class="menu-top-col">
+                   <ion-row>
+                       <ion-col col-3>
+                            <img class="menu-pregnancy-img" src="assets/imgs/pregnanct_woman.jpg">
+                       </ion-col>
+
+                       <ion-col col-9 align-self-center>
+                           <ion-row>
+                               <ion-col col-10>
+                                   <div class="user-name">Hanan Mourad</div>
+                                   <div class="country-governate">Cairo, Egypt</div>
+                               </ion-col>
+                               <ion-col col-2>
+                                  <img src="assets/imgs/settings.png" class="setting">
+                               </ion-col>
+                           </ion-row>
+                           <div class="user-email">hanan_mourad@gmail.com</div>
+                       </ion-col>
+                   </ion-row>
+               </ion-col>
+             </ion-row>
+       
+             <ion-row class="menu-row2">
+                 <ion-col menuClose col-12 class="menu-col" (click)="openPage(page)">
+                     <div class="menu-item">
+                       <div class="menu-div">Edit Your profile</div>
+                       <div class="menu-div">Upload your photo</div>
+                       <div class="menu-div">Change password</div>
+                       <div class="menu-div">Change your facebook account</div>
+                       <div class="menu-div">Select language</div>
+                       <div class="menu-div">invite friends via facebook</div>
+                       <div class="menu-div">invite friends via email</div>
+                       <div class="menu-div">application info</div>
+                       <div class="menu-div">Deactive account</div>
+                     </div>
+                 </ion-col>
+             </ion-row>
+
+             <ion-row class="logout-row">
+                 <img src="assets/imgs/logout.svg" class="logout-img"> <span class="logout">Logout</span>
+             </ion-row>
+       
+             
+           </ion-grid>
+       
+         </ion-content>
+       
+       </ion-menu>
+       
+       <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+       <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

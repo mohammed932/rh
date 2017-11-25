@@ -1,0 +1,70 @@
+page-cycle-tracker {
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem; 
+    }
+    .calender{
+        position: relative;
+        left: 11%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 13%;
+    }
+    .wrapper{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background: white;
+        margin: auto;
+        border-radius: 100%;
+    
+    }
+    .wrapper2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background: #f8a9cb;
+        margin: auto;
+        border-radius: 100%;
+    }
+    .directory{
+        display: block;
+        position: absolute;
+        top: 22%;
+        margin: auto;
+        left: 20%;
+    }
+    .period-img{
+        display: block;
+        position: absolute;
+        top: 17%;
+        margin: auto;
+        left: 24%;   
+    }
+    .setting{
+        display: block;
+        position: absolute;
+        top: 24%;
+        margin: auto;
+        left: 28%;
+    }
+    .text{
+        text-align: center;
+        margin-top: 1rem;
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .col1{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .col2,.col3{
+        margin-bottom: 2rem;
+    }
+}

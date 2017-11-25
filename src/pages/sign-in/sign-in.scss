@@ -1,0 +1,85 @@
+page-sign-in {
+    .scroll-content{
+        background: url('../assets/imgs/background.png') no-repeat; 
+        background-size: cover; 
+        background-position: center; 
+        margin: auto; 
+        z-index: 2; 
+    }
+
+    .input{
+        display: block;
+        border: navajowhite;
+        margin: auto;
+        text-align: center;
+        width: 80%;
+        color: gray;
+        border-radius: 19px;
+        padding: 16px;
+    }
+    .login-btn{
+        display: block;
+        border: navajowhite;
+        margin: auto;
+        font-size: 2rem;
+        width: 80%;
+        color: red;
+        border-radius: 19px;
+        padding: 14px;
+        background: white;
+        margin-bottom: 3rem;
+    }
+    .forget-pass{
+        display: block;
+        text-align: center;
+        margin: auto;
+        text-decoration: underline;
+    }
+    .line-fb{
+        padding: 10px;
+        border-top: 1px solid white;
+    }
+    .fb-btn{
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 48px;
+        padding: 14px;
+        background: #3b5998;
+        color: white;
+        font-size: 1.5rem;
+    }
+    ion-icon{
+        display: inline-block;
+        font-size: 2.2em;
+        margin-right: 1rem;
+        margin-top: -0.6rem;
+        vertical-align: middle;
+    }
+    .create-account{
+        text-align: center;
+        margin-top: 0.5rem;
+        text-decoration: underline;
+    }
+    .have-account{
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+    }
+    
+    .sign-in{
+        text-align: center;
+        font-size: 2.6rem;
+        color: #da1a77;
+        margin-top: 1rem; 
+    }
+    .calender{
+        position: relative;
+        left: 27%;
+    }
+    .settings{
+        display: inline-block;
+        position: relative;
+        right: 28%;
+    }
+}

@@ -1,0 +1,63 @@
+<ion-header>
+    <ion-navbar color="primary">
+    </ion-navbar>
+</ion-header>
+    
+    
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-12>
+              
+              <div class="sign-in">
+                  <img src="assets/imgs/settings.png" class="settings">
+                 Registation
+                <img src="assets/imgs/Calendar.png" class="calender">
+              </div>
+              
+          </ion-col>
+          <ion-col col-12>
+            <img class="logo" src="assets/imgs/ico-logo.png">
+          </ion-col>
+          <ion-col col-12>
+            <input type="text" class="input name" placeholder="Name">
+          </ion-col>
+          <ion-col col-12>
+              <ion-select [(ngModel)]="location" class="select-gender">
+                  <ion-option value="">Gender</ion-option>
+                  <ion-option value="c">Cairo</ion-option>
+                  <ion-option value="g">Giza</ion-option>
+              </ion-select>
+          </ion-col>
+          <ion-col>
+            <ion-row>
+              <ion-col col-5>
+                  <input type="text" class="input age" placeholder="Age">
+              </ion-col>
+              <ion-col col-7>
+                  <ion-select [(ngModel)]="location" class="select-location">
+                      <ion-option value="">location</ion-option>
+                      <ion-option value="c">Cairo</ion-option>
+                      <ion-option value="g">Giza</ion-option>
+                  </ion-select>
+              </ion-col>
+            </ion-row>
+              
+          </ion-col>
+          <ion-col col-12>
+              <input type="text" class="input email" placeholder="Email">
+            </ion-col>
+            <ion-col col-12>
+                <input type="text" class="input password" placeholder="Password">
+              </ion-col>
+          <ion-col col-12>
+              <button class="submit-btn" (click)="login()">Submit</button>
+          </ion-col>
+          <ion-col col-12 class="line-fb">
+              <button class="fb-btn"><ion-icon name="logo-facebook"></ion-icon>
+                Connect With FACEBOOK</button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+    
